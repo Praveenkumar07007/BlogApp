@@ -81,9 +81,13 @@ cp app/.env.example app/.env
 
 Example `.env` content:
 ```env
-DATABASE_URL=sqlite:///./blog.db
 SECRET_KEY=your-secret-key-here
-REDIS_URL=redis://localhost:6379
+DATABASE_URL=sqlite:///./app.db
+GOOGLE_CLIENT_ID=your-google-client-id
+GOOGLE_CLIENT_SECRET=your-google-client-secret
+REDIS_URL=redis://localhost:6379/0
+SMTP_EMAIL=your-email@gmail.com
+SMTP_PASSWORD=your-app-password
 ```
 
 ## 🏃‍♂️ Running the Application
